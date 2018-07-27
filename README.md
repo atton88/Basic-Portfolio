@@ -10,7 +10,7 @@ A basic portfolio site created using html and css.
 <!-- [What the user will see](the link to the deployed site) -->
 [GitHub Repository](https://github.com/atton88/Basic-Portfolio)
 
-[Webite](https://atton88.github.io/Basic-Portfolio/)
+[Website](https://atton88.github.io/Basic-Portfolio/)
 
 # Images
 <!-- take a picture of the image and add it into the readme  -->
