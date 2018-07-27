@@ -1,21 +1,22 @@
 <!-- Put the name of the project after the # -->
 <!-- the # means h1  -->
-# hw-wireframe
+# HW-Basic-Portfolio
 
 <!-- Put a description of what the project is -->
-Wireframe of website created using elements, boxes, padding, margins, and other basic positioning concepts in HTML and CSS.
+A basic portfolio site created using html and css.
 
 # Link to deployed site
 <!-- make a link to the deployed site --> 
 <!-- [What the user will see](the link to the deployed site) -->
-[GitHub Repository](https://github.com/atton88/HW-Wireframe)
+[GitHub Repository](https://github.com/atton88/Basic-Portfolio)
 
-[Webite](https://atton88.github.io/HW-Wireframe/)
+[Webite](https://atton88.github.io/Basic-Portfolio/)
 
 # Images
 <!-- take a picture of the image and add it into the readme  -->
 <!-- ![image title](path or link to image) -->
-![Screenshot]()
+![About Me](assets/images/Capture.PNG)
+![Portfolio](assets/images/Capture2.PNG)
 
 # technology used
 <!-- make a list of technology used -->
@@ -37,41 +38,62 @@ Wireframe of website created using elements, boxes, padding, margins, and other 
 <!-- put snippets of code inside ``` ``` so it will look like code -->
 <!-- if you want to put blockquotes use a > -->
 
-HTML
+Header
 ```
-    <section>
-        <heading>
-            <p>section</p>
-        </heading>
-        <article>
-            <heading>
-                <p>article</p>
-            </heading>
-            <h1 class=smallbox>h1, h2, h3</h1>
-            <p class=smallbox>p</p>
-        </article>
-    </section>
+<header>
+    <nav>
+        <h1 class="whitetext bgteal"> Andrew Ton</h1>            
+        <ul>
+            <li class="lsdiv"> <a href="index.html">About</a></li>
+            <li class="lsdiv"> <a href="portfolio.html">Portfolio</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 ```
-CSS
+Portfolio Panel
 ```
-header, nav, section, aside, footer {
-    background-color: #ebebeb;
-    padding: 10px;
-    margin: 10px;
+<div class="content">
+    <div class="panel">
+        <img src="assets/images/p1.jpg" alt"pic 1"> </a>
+        <div class="paneltxt bgteal whitetext">Hangman</div>
+    </div>
+```
+Panel CSS
+```
+.panel {
+    float: left;
+    position: relative;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    height: 200px;
+    width: 300px;
 }
 
-.smallbox {
-    color: #777;
-    background-color: #ebebeb;
+.paneltxt {
+    box-sizing: border-box;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    z-index: 1;
+    width: 300px;
+    text-align: center;
     padding: 10px;
-    margin: 10px;
 }
 ```
-
 
 # Learning points
 <!-- Learning points where you would write what you thought was helpful -->
-Learned about margins, padding, float, and other positional tools.
+Learned basic website elements like headers, footers, panels, forms, and horizontal lists, as well as formatting the elements.
+
+- floats
+- box-sizing
+- overflows
+- classes
+- forms
+- horizontal lists
+- position
+
 
 # Author 
 <!-- make a link to the deployed site and have your name as the link -->
